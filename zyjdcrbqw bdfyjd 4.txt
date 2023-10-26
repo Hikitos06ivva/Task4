@@ -1,0 +1,95 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    int sum=0;
+    for (int i = 1; i <= 150; i++) {
+        if (i % 5 == 0) {
+            sum += i;
+        }
+        if (i % 7 == 0) {
+            sum += i;
+        }
+    }
+    cout << "Вот: " << sum;
+        return 0;
+    }
+_______________________________________________
+#include <iostream>
+using namespace std;
+int main(){
+    setlocale(0, "");
+	int num;
+	cout << "введите число :";
+		cin >> num;
+		for (int i = 1;i < 100;i++) {
+			if ( num%i==0 ){
+				cout << i<<"\n";
+			
+			}
+
+
+		 }
+
+
+   }
+_______________________________________________
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    long long sq = 1, kyb=1;
+    cout << "Таблица квадратов:\n";
+    for (int i = 1; i <= 20; i++) {
+        sq = i*i;
+        cout << sq << "\n";
+    }
+    cout << "Таблица кубов:\n";
+    for (int i = 1; i <= 20; i++) {
+        kyb = i * i * i;
+        cout << kyb << "\n";
+    }
+    
+    return 0;
+}
+_______________________________________________
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    long long factorial = 1;
+    for (int i = 1; i <= 15; i++) {
+        factorial *= i;
+    }
+    cout << "Факториал числа 15:" << factorial << "\n";
+    return 0;
+}
+________________________________________________________________
+#include <iostream>
+using namespace std;
+int main(){
+    setlocale(0, "");
+	int   num1 = 1 ;
+	int num2 = 0 ;
+	int sum;
+       for (int i = 0; i < 5; i++) {
+		   
+		   
+		   
+		   num1 += num2;
+		   cout << num1 << "\n";
+		   
+		   num2 += num1;
+		   cout << num2 << "\n";
+
+
+
+   }
+   return 0;
+}
